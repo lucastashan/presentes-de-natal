@@ -1,0 +1,11 @@
+@startuml
+package DonaRicota{
+    class Presente
+    class ParPresentes
+    class Neto
+}
+
+ParPresentes "1" *-- "2" Presente
+Neto "1" - "1" ParPresentes
+
+@enduml
